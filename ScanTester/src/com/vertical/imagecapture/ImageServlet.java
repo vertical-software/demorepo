@@ -28,6 +28,7 @@ public class ImageServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 	{
 		System.out.println("in post");
+		
 		try { 
 			StringBuffer buffer = new StringBuffer(); 
 			Reader reader = request.getReader(); 
